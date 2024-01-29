@@ -1,0 +1,178 @@
+/*CSS FİLE */
+
+/* BOŞLUKLARI SIFIRLA */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:antiquewhite;
+}
+
+#sayfa{
+    width: 400px;
+    min-height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+/* BANNER */
+
+#banner{
+    width: 398px;
+    height: 100px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: white;
+    margin: auto;
+}
+
+/* LOGO */
+
+#logo{
+    width: 100px;
+    height: 80px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+
+/* SOSYAL MEDYA İKONLARI */
+
+#sosyal{
+    width: 180px;
+    height: 40px;
+    border-style: none;
+    border-width: 1px;
+    background-color: white;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+
+#ikon{
+    float:left;
+    margin-left: 20px;
+    width: 35px;
+    height: auto;
+    margin-top: 3px;
+}
+
+/* ANA MENÜ KODLARI */
+
+#anamenu{
+    width: 398px;
+    height: 50px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: aqua;
+    margin: auto;
+}
+
+#anamenu ul{
+    list-style-type: none;
+}
+
+#anamenu ul li{
+    width: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: blue;
+    background-color: white;
+    float:left;
+    padding: 4px;
+    margin-left: 6px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+#anamenu ul a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#anamenu ul a:link{
+    color: blue;
+}
+
+#anamenu ul a:visited{
+    color: brown;
+}
+
+#anamenu ul a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+#anamenu ul a:active{
+    color: red;
+}
+
+/* İÇERİK VE YAN MENÜ KODLARI */
+
+#icerik{
+    width: 300px;
+    min-height: 400px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: white;
+    float: left;
+}
+
+#yanmenu{
+    width: 96px;
+    min-height: 400px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color:darkviolet;
+    float: left;
+}
+
+.resim{
+    width: 250px;
+    float:left;
+    margin:20px;
+}
+
+.metin{
+    text-align: center;
+    padding: 2px;
+    font-size: 13px;
+}
+
+.baslik{
+    text-align: center;
+}
+
+/* ALT MENÜ KODLARI */
+
+#altmenu{
+    width: 398px;
+    min-height:50px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color:aqua;
+    float: left;
+    text-align: center;
+    color: black;
+}
+
+#altmenu a{
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+#altmenu a:hover{
+    color: gray;
+    text-decoration: underline;
+}
